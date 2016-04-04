@@ -1,21 +1,34 @@
 
-                              JWZScreensaver version 6.66
+                        JWZScreensaver version 6.66
 
                              a collection of
                             free screen savers
-                            for X11 and MacOS
-
-                            By Jamie Zawinski
-                             and many others
+                            for X11 and MacOS,
+                            especially Debian
+                            GNU/Linux Systems
+                            
+			    lazily forked from 
+		        XScreensaver By Jamie Zawinski
+			     and many others
 
                      http://www.jwz.org/xscreensaver/
+
+===============================================================================
+
+JWZScreensaver is a completely unaltered fork of Xscreensaver. JWZScreensaver contains no patches
+to fix the "old version" warning, as we feel that future generations should be able to witness
+the bad decision making, ignorance to best practices, and general developer unworkability present in
+the forked version of Xscreensaver. We are confident that JWZ will either wise up and remove this
+warning, or Debian and Canonical will patch the software against his will in the coming weeks. Since
+better minds than the master forker are at work delivering a solution, this repo exists only as an
+archive so we can all look back and say, "WOW, that was a bad and immature decision."
 
 ===============================================================================
 
 This is the JWZScreenSaver source code distribution.  It is strongly recommended
 that you install a binary release rather than trying to compile it yourself.
 Binaries are available for almost all platforms, including MacOS X.  See the
-JWZScreenSaver web site for details.
+Debian Project web site for details.
 
 To compile on a Unix system with X11:
 
@@ -34,11 +47,13 @@ Interested in writing a new screen saver?
 
 ===============================================================================
 
-XScreenSaver has an extensive manual -- please read it!
+JWZScreensaver has an extensive manual that mostly refers to it as Xscreensaver, for legacy reasons, trust me. Please read it!
 
 ===============================================================================
 6.66    * Protest forked from toxic dev with God complex
 	
+	
+XScreensaver Upstream:	
 5.34	* Fixed a crash when hot-swapping monitors while locked.
 	* Fixed some incorrect output from `xscreensaver-command -watch'.
 	* Various OSX and iOS performance improvements.
