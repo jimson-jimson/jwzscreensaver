@@ -1,5 +1,5 @@
 
-                              XScreenSaver
+                              JWZScreensaver version 6.66
 
                              a collection of
                             free screen savers
@@ -12,10 +12,10 @@
 
 ===============================================================================
 
-This is the XScreenSaver source code distribution.  It is strongly recommended
+This is the JWZScreenSaver source code distribution.  It is strongly recommended
 that you install a binary release rather than trying to compile it yourself.
 Binaries are available for almost all platforms, including MacOS X.  See the
-XScreenSaver web site for details.
+JWZScreenSaver web site for details.
 
 To compile on a Unix system with X11:
 
@@ -37,7 +37,8 @@ Interested in writing a new screen saver?
 XScreenSaver has an extensive manual -- please read it!
 
 ===============================================================================
-
+6.66    * Protest forked from toxic dev with God complex
+	
 5.34	* Fixed a crash when hot-swapping monitors while locked.
 	* Fixed some incorrect output from `xscreensaver-command -watch'.
 	* Various OSX and iOS performance improvements.
