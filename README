@@ -17,8 +17,8 @@
 
 JWZScreensaver is a completely unaltered fork of Xscreensaver. JWZScreensaver contains no patches
 to fix the "old version" warning, as we feel that future generations should be able to witness
-the bad decision making, ignorance to best practices, and general developer unworkability present in
-the forked version of Xscreensaver. We are confident that JWZ will either wise up and remove this
+the bad decision making, ignorance to best practices, and general developer unworkability present 
+in xscreensaver version 5.34, and several prior versions. We are confident that JWZ will either wise up and remove this
 warning, or Debian and Canonical will patch the software against his will in the coming weeks. Since
 better minds than the master forker are at work delivering a solution, this repo exists only as an
 archive so we can all look back and say, "WOW, that was a bad and immature decision."
@@ -44,6 +44,11 @@ To compile on MacOS X:
 Interested in writing a new screen saver?
 
     See the README.hacking file.
+
+
+==============================================================================
+
+Trying to trigger JWZ's hideosly obnoxious warning? Set your date to any day after April 3rd 2018.
 
 ===============================================================================
 
